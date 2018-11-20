@@ -2,6 +2,7 @@
 #### TODO
 
 ##### Directory Structure
+```
 ./anno
     ./train.json
     ./test.json
@@ -14,7 +15,9 @@
         ./A
         ./a
         ./..
+```
 #### Annotation json format
+```
 {
     class: int      // example (0-77)
     image_id: int
@@ -31,3 +34,4 @@
                     // over_66(7)
     page_id: int
 }
+```
